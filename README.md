@@ -266,4 +266,4 @@ This project is released under the [MIT License](LICENSE).
 ---
 
 *Built with Python, scikit-learn, NLTK, Gensim, and Streamlit.  
-University project — 2026.*
+

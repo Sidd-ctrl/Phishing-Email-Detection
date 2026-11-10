@@ -1,0 +1,90 @@
+/* PhishGuard custom styles */
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    max-width: 680px;
+    margin: 0 auto 1.2rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #5f6368;
+}
+
+.badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.badge-row span {
+    background: #e8f0fe;
+    color: #1a73e8;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+.badge-row span.teal {
+    background: #e0f2f1;
+    color: #00796b;
+}
+
+.badge-row span.blue {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.card {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin: 0.5rem 0;
+    height: 100%;
+}
+
+.card h4 {
+    margin: 0 0 0.5rem;
+    color: #202124;
+}
+
+.risk-low { color: #2e7d32; font-weight: 600; }
+.risk-medium { color: #f57c00; font-weight: 600; }
+.risk-high { color: #d32f2f; font-weight: 600; }
+.risk-critical { color: #b71c1c; font-weight: 700; }
+
+.verdict-safe {
+    background: #e8f5e9;
+    color: #1b5e20;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.verdict-phish {
+    background: #ffebee;
+    color: #b71c1c;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.highlight-word {
+    background: #ffcdd2;
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+    border-bottom: 2px solid #e53935;
+}

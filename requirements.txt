@@ -1,0 +1,23 @@
+# Core stack - versions are what the project was developed against;
+# anything reasonably close should work too.
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+nltk>=3.8
+gensim>=4.3
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+wordcloud>=1.9
+plotly>=5.18
+
+# Deployment
+streamlit>=1.32
+
+# Report / slides generation (used by the doc-gen scripts, not the app)
+python-docx>=1.1
+python-pptx>=0.6.23
+
+joblib>=1.3
